@@ -27,8 +27,8 @@ function Chatbot() {
   };
 
   return (
-    <section id="ai-chat" className="bg-savora-dark text-savora-cream h-screen py-20 px-6 scroll-mt-8">
-      <div className="max-w-3xl mx-auto text-center">
+    <section id="ai-chat" className="bg-savora-dark text-savora-cream min-h-screen py-20 px-6 scroll-mt-8">
+      <div className="max-w-3xl mx-auto text-center ">
         
         <p className="font-body text-savora-gold uppercase tracking-widest text-sm mb-3">
           Ask Us Anything
@@ -71,7 +71,7 @@ function Chatbot() {
         )}
 
         {reply && (
-          <div className="bg-savora-border rounded-lg p-6 text-left font-body whitespace-pre-line">
+          <div className="bg-savora-border rounded-lg p-6 text-left font-body whitespace-pre-line ">
             {reply}
           </div>
         )}
